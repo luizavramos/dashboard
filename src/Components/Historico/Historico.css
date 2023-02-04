@@ -1,0 +1,147 @@
+.container-historico {
+  width: 1136px;
+  height: 320px;
+  left: 320px;
+  top: 480px;
+  display: flex;
+  flex-direction: row;
+}
+
+.rosa {
+  display: flex;
+  flex-direction: row;
+}
+.rosa p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  margin-left: 5vh;
+
+  color: #303b5b;
+}
+.rosa .botao {
+  width: 104px;
+  height: 24px;
+  left: 576px;
+  top: 432px;
+  margin: 2vh;
+}
+
+.botao {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #ffff;
+  background: linear-gradient(93.05deg, #00a3ff 0%, #0057ff 100%);
+  border-radius: 20px;
+}
+.lista-hist {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-color: black;
+  border: 2vh;
+  border-radius: 6px;
+  margin-left: 2vh;
+}
+
+.hist-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-color: black;
+  border-radius: 20vh;
+  width: 173vh;
+  height: 48.8vh;
+  align-items: center;
+}
+
+.img-hist {
+  margin-bottom: 2.5vh;
+}
+.center {
+  margin-left: 4%;
+}
+.hist-div p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 3vh;
+  color: rgba(48, 59, 91, 0.3);
+}
+
+.hist-div .font {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+
+  color: #303b5b;
+}
+.hist-div .font-test {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #303b5b;
+}
+.hist-div .hist {
+  background-color: transparent;
+  width: 37vh;
+  height: 40vh;
+  border: 1px solid #edf1f8;
+  border-radius: 6px;
+}
+.format-test {
+  display: flex;
+}
+
+.titulo-realizado p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  color: #303b5b;
+}
+
+.container-realizado {
+  background-image: url(".//src/assets/Rectangle105.png");
+
+  width: 37vh;
+  height: 40vh;
+
+  border: 1px solid #edf1f8;
+  border-radius: 6px;
+}
+.center-realizado{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.box-branco{
+    background-color: pink;
+    width:500px;
+    height: 48.8vh;
+}
